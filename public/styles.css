@@ -1,4 +1,109 @@
+html,
+body{
+	height: 100%;
+}
+
 body{
 	font-weight: bolder;
-	font-size: 100px;
+/*	font-size: 100px;*/
+	background-color: lightgray;
+	font-size: 14px;
 }
+
+.center-banner{
+	position: relative;
+	top: 50px;
+	right: 0;
+	left: 0;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+.center-banner ul {
+	list-style-type: none;
+}
+
+.center-banner ul li{
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.center-info{
+	position: absolute;
+	top: 35%;
+	right: 40%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.about-name{
+	font-size: 20px;
+	font-family: cursive;
+}
+
+.main-pic{
+	height: 250px;
+	width: 250px;
+	border-radius: 35px;
+}
+.info-text{
+	position: absolute;
+	top: 60%;
+	right: 45%;
+	transform: translateY(-50%);
+	text-align: center;
+	vertical-align: center;
+}
+
+.info-text ul li:first-of-type:before{
+	list-style-type: none;
+}
+
+footer{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	vertical-align: center;
+}
+
+.small-me-image{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	margin-left: 45%;
+	bottom: 5px;
+}
+
+.contact-me{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
