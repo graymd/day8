@@ -1,12 +1,14 @@
 <div class="center-info">
 	<div class="about-name">about <%= @fake_name %></div>
-	<img class="main-pic" src="http://placezombie.com/300x200">
+	<img class="main-pic" src =<%= @randofriend[:image_url] %> >
 </div>
 <div class="info-text">
-	Favorite Things:
+	3 Favorite Things:
 	<ul>
 		<li>Eating brains</li>
 		<li>Long walks</li>
 		<li>Never dying</li>
 	</ul>
 </div>
+<div class="writing-sample"><%= @fake_name %>s writing sample:</div>
+<div class="text-box"><%= @fake_about_paragraph %></div>
